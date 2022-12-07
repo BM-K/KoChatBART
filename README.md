@@ -3,9 +3,14 @@
 
 <img src=https://user-images.githubusercontent.com/55969260/205434343-b72641e9-d0f9-4b88-a334-9f904e0a35c5.png>
 
-# Performance
+# 사전 학습 데이터 전처리
+To be
+
+# 대화 생성 성능 측정
+다음 코드[(Dialogue Generator)](https://github.com/2unju/KoBART_Dialogue_Generator)를 기반으로 각 모델을 fine-tuning 하였습니다. 대화 생성 성능 측정을 위해 추론 시 토크나이징되어 생성된 응답을 복원한 후, BPE tokenizer를 사용하여 실제 응답과 생성된 응답 사이의 overlap 및 distinct를 측정하였습니다.
+
 ## On WiseKB 데이터
-KHU NLP LAB에서 직접 구축한 양질의 대화 데이터
+- KHU NLP LAB에서 직접 구축한 양질의 대화 데이터
 
 |Training|Validation|Test|
 |:----:|:----:|:----:|
@@ -18,7 +23,7 @@ KHU NLP LAB에서 직접 구축한 양질의 대화 데이터
 | KoT5    | --M  |  |  |  |  |  |  |
 
 ## On 감성 대화 데이터
-[일상 대화 데이터](https://github.com/songys/Chatbot_data)
+- [일상 대화 데이터](https://github.com/songys/Chatbot_data)
 
 |Training|Validation|Test|
 |:----:|:----:|:----:|
