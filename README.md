@@ -29,5 +29,10 @@ To be
 | KoChatBART    | 139M  |  |  |  |  |  |  |
 | KoT5    | 324M  |  |  |  |  |  |  |
 
+## Contributors
+<a href="https://github.com/BM-K/KoChatBART/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BM-K/KoChatBART" />
+</a>
+
 ## Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)
