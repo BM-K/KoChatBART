@@ -18,9 +18,9 @@ To be
 
 | Model                  | Param | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | Dist-1 | Dist-2 |
 |------------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| KoBART    | --M  |  |  |  |  |  |  |
-| KoChatBART    | --M  |  |  |  |  |  |  |
-| KoT5    | --M  |  |  |  |  |  |  |
+| KoBART    | 123M  |  |  |  |  |  |  |
+| KoChatBART    | 139M  |  |  |  |  |  |  |
+| KoT5    | 324M  |  |  |  |  |  |  |
 
 ## Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)
