@@ -16,8 +16,8 @@ To be
 ## 대화 생성 성능 측정
 다음 코드[(Dialogue Generator)](https://github.com/2unju/KoBART_Dialogue_Generator)를 기반으로 각 모델을 fine-tuning 하였습니다. 대화 생성 성능 측정을 위해 추론 시 토크나이징되어 생성된 응답을 복원한 후, BPE tokenizer를 사용하여 실제 응답과 생성된 응답 사이의 overlap 및 distinct를 측정하였습니다.
 
-### On 감성 대화 데이터
-- [일상 대화 데이터](https://github.com/songys/Chatbot_data)
+### 실험 결과
+- 사용 대화 데이터: [감성 대화 데이터](https://github.com/songys/Chatbot_data)
 
 |Training|Validation|Test|
 |:----:|:----:|:----:|
