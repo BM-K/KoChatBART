@@ -3,5 +3,12 @@
 
 <img src=https://user-images.githubusercontent.com/55969260/205434343-b72641e9-d0f9-4b88-a334-9f904e0a35c5.png>
 
+# Performance
+## WiseKB 데이터
+KHU NLP LAB에서 직접 구축한 양질의 대화 데이터
+
+## 감성 대화 데이터
+[일상 대화 데이터](https://github.com/songys/Chatbot_data)
+
 ## Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)
