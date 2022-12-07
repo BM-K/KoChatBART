@@ -3,13 +3,20 @@
 
 <img src=https://user-images.githubusercontent.com/55969260/205434343-b72641e9-d0f9-4b88-a334-9f904e0a35c5.png>
 
-# 사전 학습 데이터 전처리
+## 사전 학습 데이터 전처리
 To be
 
-# 대화 생성 성능 측정
+## Model
+
+| Model         | # of params | vocab size |  Type   | # of layers | # of heads | ffn_dim | hidden_dims |
+| ------------- | :---------: | :-----: | :----------: | ---------: | ------: | ----------: | ----------: | 
+| `KoChatBART` |    139M     | 50265 | Encoder |           6 |         16 |    3072 |         768 |
+|               |            |  | Decoder |           6 |         16 |    3072 |         768 |
+
+## 대화 생성 성능 측정
 다음 코드[(Dialogue Generator)](https://github.com/2unju/KoBART_Dialogue_Generator)를 기반으로 각 모델을 fine-tuning 하였습니다. 대화 생성 성능 측정을 위해 추론 시 토크나이징되어 생성된 응답을 복원한 후, BPE tokenizer를 사용하여 실제 응답과 생성된 응답 사이의 overlap 및 distinct를 측정하였습니다.
 
-## On 감성 대화 데이터
+### On 감성 대화 데이터
 - [일상 대화 데이터](https://github.com/songys/Chatbot_data)
 
 |Training|Validation|Test|
@@ -18,7 +25,7 @@ To be
 
 | Model                  | Param | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | Dist-1 | Dist-2 |
 |------------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| KoBART    | 123M  |  |  |  |  |  |  |
+| KoBART    | 124M  |  |  |  |  |  |  |
 | KoChatBART    | 139M  |  |  |  |  |  |  |
 | KoT5    | 324M  |  |  |  |  |  |  |
 
