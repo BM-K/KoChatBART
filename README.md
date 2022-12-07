@@ -4,11 +4,31 @@
 <img src=https://user-images.githubusercontent.com/55969260/205434343-b72641e9-d0f9-4b88-a334-9f904e0a35c5.png>
 
 # Performance
-## WiseKB 데이터
+## On WiseKB 데이터
 KHU NLP LAB에서 직접 구축한 양질의 대화 데이터
 
-## 감성 대화 데이터
+|Training|Validation|Test|
+|:----:|:----:|:----:|
+|2,700|150|150|
+
+| Model                  | Param | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | Dist-1 | Dist-2 |
+|------------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| KoBART    | --M  |  |  |  |  |  |  |
+| KoChatBART    | --M  |  |  |  |  |  |  |
+| KoT5    | --M  |  |  |  |  |  |  |
+
+## On 감성 대화 데이터
 [일상 대화 데이터](https://github.com/songys/Chatbot_data)
+
+|Training|Validation|Test|
+|:----:|:----:|:----:|
+|9,458|1,182|1,183|
+
+| Model                  | Param | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | Dist-1 | Dist-2 |
+|------------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| KoBART    | --M  |  |  |  |  |  |  |
+| KoChatBART    | --M  |  |  |  |  |  |  |
+| KoT5    | --M  |  |  |  |  |  |  |
 
 ## Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)
