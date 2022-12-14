@@ -17,7 +17,7 @@ To be
 다음 코드[(Dialogue Generator)](https://github.com/2unju/KoBART_Dialogue_Generator)를 기반으로 각 모델을 fine-tuning 하였습니다. 대화 생성 성능 측정을 위해 추론 시 토크나이징되어 생성된 응답을 복원한 후, BPE tokenizer를 사용하여 실제 응답과 생성된 응답 사이의 overlap 및 distinct를 측정하였습니다.
 
 ### 실험 결과
-- 사용 대화 데이터: [감성 대화 데이터](https://github.com/songys/Chatbot_data)
+- [감성 대화 데이터](https://github.com/songys/Chatbot_data)
 
 |Training|Validation|Test|
 |:----:|:----:|:----:|
@@ -25,7 +25,19 @@ To be
 
 | Model                  | Param | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | Dist-1 | Dist-2 |
 |------------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| KoBART    | 124M  |  |  |  |  |  |  |
+| KoBART    | 124M  | 19.58 | 12.25 | 9.12 | 7.43 | 14.66 | 31.33 |
+| KoChatBART    | 139M  |  |  |  |  |  |  |
+| KoT5    | 324M  | 22.61 | 15.46 | 12.10 | 10.14 | 16.97 | 40.09 |
+
+- 소상공인 대화 데이터
+
+|Training|Validation|Test|
+|:----:|:----:|:----:|
+|29,093|1,616|1,616|
+
+| Model                  | Param | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | Dist-1 | Dist-2 |
+|------------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| KoBART    | 124M  | 21.32 | 14.78 | 10.51 | 7.66 | 14.13 | 40.87 |
 | KoChatBART    | 139M  |  |  |  |  |  |  |
 | KoT5    | 324M  |  |  |  |  |  |  |
 
