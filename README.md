@@ -4,7 +4,7 @@
 <img src=https://user-images.githubusercontent.com/55969260/205434343-b72641e9-d0f9-4b88-a334-9f904e0a35c5.png>
 
 ## 사전 학습 데이터 전처리
-To be
+To Be Opened... [@Seoneun](https://github.com/Seoneun)
 
 ## Model
 
@@ -28,7 +28,7 @@ To be
 | KoBART    | 124M  | 19.58 | 12.25 | 9.12 | 7.43 | 14.66 | 31.33 |
 | KoChatBART    | 139M  |  |  |  |  |  |  |
 
-- [소상공인 대화 데이터](@2unju)
+- 소상공인 대화 데이터 [@2unju](https://github.com/2unju)
 
 |Training|Validation|Test|
 |:----:|:----:|:----:|
