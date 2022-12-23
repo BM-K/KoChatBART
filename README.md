@@ -25,8 +25,8 @@ To Be Opened... [@Seoneun](https://github.com/Seoneun)
 
 | Model                  | Param | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | Dist-1 | Dist-2 |
 |------------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| KoBART    | 124M  | 19.58 | 12.25 | 9.12 | 7.43 | 14.66 | 31.33 |
-| KoChatBART    | 139M  |  |  |  |  |  |  |
+| KoBART    | 124M  | 19.21 | 11.84 | 8.73 | 7.12 | 16.85 | 34.89 |
+| KoChatBART    | 139M  | 22.11 | 15.91 | 12.97 | 11.23 | 19.64 | 44.53 |
 
 - 소상공인 대화 데이터 [@2unju](https://github.com/2unju)
 
