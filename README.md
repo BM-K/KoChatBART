@@ -28,7 +28,7 @@ To Be Opened... [@Seoneun](https://github.com/Seoneun)
 | KoBART    | 124M  | 8.73 | 7.12 | 16.85 | 34.89 |
 | KoChatBART    | 139M  | **12.97** | **11.23** | **19.64** | **44.53** |
 
-- 소상공인 대화 데이터 [@2unju](https://github.com/2unju)
+- [소상공인 대화 데이터](https://github.com/2unju/AIHub_Chitchat_dataset_parser)
 
 |Training|Validation|Test|
 |:----:|:----:|:----:|
