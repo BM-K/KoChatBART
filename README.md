@@ -6,8 +6,14 @@
 ## 사전 학습 데이터 전처리
 사용한 데이터셋
  - [주제별 텍스트 일상 대화 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=543)
+ - [소상공인 고객 주문 질의-응답 텍스트](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=102)
+ - [한국어 SNS](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=114)
+ - [민원 업무 자동화 인공지능 언어 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=619)
 
-
+KoChatBART를 학습시키기 위하여 한국어 대화 데이터셋들을 전처리 후 합쳐 대량의 한국어 대화 말뭉치를 만들었습니다.
+1. 데이터의 중복을 줄이기 위해 'ㅋㅋㅋㅋㅋㅋ'와 같은 중복된 표현이 2번 이상 반복될 때는 'ㅋㅋ'와 같이 2번으로 바꿨습니다.
+2. 너무 짧은 데이터는 학습에 방해가 될 수 있기 때문에 KoBART 토크나이저 기준 전체 토큰 길이가 3을 넘는 데이터만을 선별했습니다.
+3. 가명처리된 데이터는 제거하였습니다.
 
 ## Model
 
