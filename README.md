@@ -49,6 +49,7 @@ KoChatBART를 학습시키기 위하여 한국어 대화 데이터셋들을 전�
 |------------------------|:----:|:----:|:----:|:----:|:----:|
 | KoBART    | 124M  | 8.73 | 7.12 | 16.85 | 34.89 |
 | KoChatBART    | 139M  | **12.97** | **11.23** | **19.64** | **44.53** |
+| KoT5-ETRI    | 324M  | 12.10 | 10.14 | 16.97 | 40.09 |
 
 - [소상공인 대화 데이터](https://github.com/2unju/AIHub_Chitchat_dataset_parser)
 
@@ -60,6 +61,7 @@ KoChatBART를 학습시키기 위하여 한국어 대화 데이터셋들을 전�
 |------------------------|:----:|:----:|:----:|:----:|:----:|
 | KoBART    | 124M  | 10.04 | 7.24 | 13.76| 42.09 |
 | KoChatBART    | 139M  | **10.11** | **7.26** | **15.12** | **46.08** |
+| KoT5-ETRI    | 324M  | N/A | N/A | N/A | N/A |
 
 ## Contributors
 <a href="https://github.com/BM-K/KoChatBART/graphs/contributors">
