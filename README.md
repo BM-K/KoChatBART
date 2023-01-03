@@ -3,6 +3,17 @@
 
 <img src=https://user-images.githubusercontent.com/55969260/205434343-b72641e9-d0f9-4b88-a334-9f904e0a35c5.png>
 
+## Quick tour
+```python
+from transformers import AutoTokenizer, BartForConditionalGeneration
+  
+tokenizer = AutoTokenizer.from_pretrained("BM-K/KoChatBART")
+model = BartForConditionalGeneration.from_pretrained("BM-K/KoChatBART")
+
+inputs = tokenizer("안녕 세상아!", return_tensors="pt")
+outputs = model(**inputs)
+```
+
 ## 사전 학습 데이터 전처리
 사용한 데이터셋
  - [주제별 텍스트 일상 대화 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=543)
