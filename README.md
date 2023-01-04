@@ -36,7 +36,7 @@ KoChatBART를 학습시키기 위하여 한국어 대화 데이터셋들을 전�
 ## 대화 생성 성능 측정
 다음 코드[(Dialogue Generator)](https://github.com/2unju/KoBART_Dialogue_Generator)를 기반으로 각 모델을 fine-tuning 하였습니다. 대화 생성 성능 측정을 위해 추론 시 토크나이징되어 생성된 응답을 복원한 후, BPE tokenizer를 사용하여 실제 응답과 생성된 응답 사이의 overlap 및 distinct를 측정하였습니다.
 > **Warning** <br>
-> 일반적으로 짧은 대화 데이터로 모델을 사전학습하였기 때문에 긴 문장 처리가 요구되는 태스크(요약) 등에 대해서는 약한 모습을 보입니다.
+> 일반적으로 짧은 대화 데이터로 모델을 사전학습하였기 때문에 긴 문장 처리가 요구되는 태스크(요약) 등에 대해서는 약한 모습을 보일 수 있습니다.
 
 ### 실험 결과
 - [감성 대화 데이터](https://github.com/songys/Chatbot_data)
